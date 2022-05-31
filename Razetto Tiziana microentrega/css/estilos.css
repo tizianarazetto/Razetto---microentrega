@@ -1,0 +1,75 @@
+@font-face {
+    font-family: miFuente;
+    src: url(../fuentes/elephant.TTF);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: miFuenteDos;
+    src: url(../fuentes/helveticaHvEx.otf);
+    font-weight: 100;
+
+}
+
+body {
+    font-family: miFuenteDos;
+    font-size: 90%;
+    color: black;
+    text-align: center;
+    margin-top: -14em;
+    margin-left: -5em;
+    margin-right: -4em;
+}
+
+h1 {
+font-family: miFuente;
+font-size: 21.875em;
+line-height: 0.718em;
+letter-spacing: -0.015em;
+}
+
+p {
+font-family: miFuenteDos;
+font-size: 1.875em;
+position: relative;
+bottom: 115px;
+}
+
+a {
+    font-family: miFuenteDos;
+    color: black;
+    font-size: 1.25em;
+    text-decoration: none;
+    position: relative;
+    bottom: 60px;
+}
+
+
+
+a:hover {
+    color: #FF0090;
+    text-decoration: underline;
+}
+
+#behance{
+    position: relative;
+    right: 30px;  
+}
+
+#linkedin{
+    position: relative;
+    left: 30px;  
+}
+
+#loop {
+font-family: miFuenteDos;
+font-size: 1.25em;
+position: relative;
+top: 5px;
+}
+
+@media (max-width:768px){
+    body {
+        font-size: 50%;
+    }  
+}
